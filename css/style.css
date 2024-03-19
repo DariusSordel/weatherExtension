@@ -1,0 +1,15 @@
+body {
+    min-width: 500px;
+}
+.container1 {
+    margin: 0;
+    background-color: bisque;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.info-element {
+    background-color: chartreuse;
+    display: block;
+    margin-bottom: 10px;
+    ;
+}
