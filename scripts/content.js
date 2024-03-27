@@ -18,7 +18,9 @@
 //     xhttp.send();
 // });
 document.addEventListener("DOMContentLoaded", function () {
-    fetchWeather("lat=48.943832&lon=19.590152")
+    fetchWeather("lat=48.943832&lon=19.590152");
+    var firstActive = document.getElementById("button1");
+    firstActive.classList.add("active");
 })
 function fetchWeather(location) {
     var Url = buildUrlForLocation(location);
