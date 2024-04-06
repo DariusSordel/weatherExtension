@@ -51,7 +51,7 @@ function handleResponse(response) {
     appendInfoElement("Datum posledneho merania: ", response.data[0].ob_time);
     appendInfoElement("Teplota: ", parseInt(response.data[0].temp) + "°C");
     appendInfoElement("Rychlost vetra: ", response.data[0].wind_spd.toFixed(2) + "m/s");
-
+    appendInfoElement("Tlak: ", response.data[0].pres/10 + "kpa");
     appendWeatherIcon(response);
 }
 

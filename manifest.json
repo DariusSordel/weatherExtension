@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "test",
-  "description": "extension to make your life harder",
+  "name": "Weather Jasna",
+  "description": "do not download, for test purposes only!",
   "version": "1.0",
   "action": {
     "default_popup": "index.html",
